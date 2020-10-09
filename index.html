@@ -4,30 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProGrad Premier League</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- semantic web tags -->
     <!-- Navigation part is done -->
     <nav>
       <ul>
-        <li><img src="./assets/prograd-logo.png" alt="" /></li>
+        <li><img class="logo" src="./assets/prograd-logo.png" alt="" /></li>
         <li>
           <ul>
-            <li><a href="#teams">TEAMS</a></li>
-            <li><a href="#fixtures"> FIXTURES</a></li>
-            <li><a href="#gameplay">GAME PLAY</a></li>
-            <li><a href="#points">POINTS TABLE</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Schedule">Schedule</a></li>
+            <li><a href="game.html">Play</a></li>
           </ul>
         </li>
       </ul>
     </nav>
-    <header id="#teams">
-      <div>
+    <header id="Home">
+      <h1>Teams</h1>
+      <div class="header_teams">
         <article>
           <img src="./assets/athletic-bilbao-logo-vector.png" alt="" />
           <h4>Athletic-bilbao</h4>
-          <p>Wins - 6 Loses - 4</p>
+          <!-- <p>Wins - 6 Loses - 4</p> -->
         </article>
         <article>
           <img src="./assets/atletico-madrid-logo-vector.png" alt="" />
@@ -67,8 +67,91 @@
         </article>
       </div>
     </header>
-
-    <section id="#gameplay">
+    <section id="Schedule">
+      <h1>Schedule</h1>
+      <div class="flex-container">
+        <div class="outer-card1">
+          <div class="card1">
+            <div>
+              <img src="./assets/athletic-bilbao-logo-vector.png" alt="athletic-bilbao">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/atletico-madrid-logo-vector.png" alt="atletico-madrid">
+            </div>
+          </div>
+          <div class="card1">
+            <div>
+              <img src="./assets/barcelona-logo-vector.png" alt="barcelona">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/celta-de-vigo-logo-vector.png" alt="celta-de-vigo">
+            </div>
+          </div>
+          <div class="card1">
+            <div>
+              <img src="./assets/levante-logo-vector.png" alt="levante">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/malaga-logo-vector.png" alt="malaga">
+            </div>
+          </div>
+          <div class="card1">
+            <div>
+              <img src="./assets/real-madrid-logo-vector.png" alt="real-madrid">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/real-sociedad-logo-vector.png" alt="real-sociedad">
+            </div>
+          </div>
+          <div class="card1">
+            <div>
+              <img src="./assets/sevilla-fc-vector.jpg" alt="sevilla">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/valencia-vector-logo.png" alt="valencia-vector">
+            </div>
+          </div>
+        </div>
+        <div class="outer-card1">
+          <div class="card1">
+            <div>
+              <img src="./assets/real-madrid-logo-vector.png" alt="real-madrid">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/levante-logo-vector.png" alt="levante">
+            </div>
+          </div>
+          <div class="card1">
+            <div>
+              <img src="./assets/barcelona-logo-vector.png" alt="barcelona">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/malaga-logo-vector.png" alt="malaga">
+            </div>
+          </div>
+        </div>
+        <div class="outer-card1">
+          <div class="card1">
+            <div>
+              <img src="./assets/barcelona-logo-vector.png" alt="barcelona">
+            </div>
+            <h3>VS</h3>
+            <div>
+              <img src="./assets/real-madrid-logo-vector.png" alt="real-madrid">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- <section id="Play">
       <div>
         <div>
           <div>
@@ -99,7 +182,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <footer>Happy Coding ProGrads</footer>
+    </section> -->
   </body>
 </html>

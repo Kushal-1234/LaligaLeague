@@ -1,11 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background: linear-gradient(90deg, rgb(145, 39, 239), rgb(144, 19, 254));
-  font-size: 2em;
-  font-weight: 500;
-  color: white;
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  list-style: none;
+  background-color: purple;
+}
+
+a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  padding-top: 3px;
+  margin: 5px;
+}
+
+#Home {
+  background-color: cadetblue;
+  padding-bottom: 50px;
+}
+
+.header_teams {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+article img {
+  height: 200px;
+  width: 200px;
+  background-color: #ffffff;
+  margin: 0 7px;
+  border: 1px solid lightgray;
+}
+
+article h4 {
+  height: 30px;
+  width: 200px;
+  padding-top: 7px;
+  text-align: center;
+  background: cornflowerblue;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.outer-card1 {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  margin: 7px;
+  border: 1px solid salmon;
+}
+
+.card1 h3 {
+  color: #ffffff;
+  padding: 5px;
+  background-color: salmon;
+  border: 1px solid salmon;
+  border-radius: 50%;
+}
+
+.card1 > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.live-match {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+.shoot1,
+.shoot2,
+.shoot3,
+.shoot4,
+.shoot5 {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.score-card {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: darkcyan;
+}
+
+.score-card h1 {
+  background-color: darkgoldenrod;
+  padding-bottom: 10px;
+}
+
+.score-card > div > h2 {
+  margin: 40px 0;
+}
+
+.score-card > div > button {
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.score-card > div > button > a {
+  display: block;
+  color: #000000;
+}
+
+.shoot-button-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.shoot-button {
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
 }
